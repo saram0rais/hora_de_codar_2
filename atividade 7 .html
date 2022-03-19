@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script>
+            /* 7. Faça um programa que receba quatro valores informados pelo usuário, mas informe somente o primeiro, o último e o maior de todos eles 
+            (considere que todos os números informados serão diferentes)*/
+
+            var valor1 = parseInt(prompt("Informe o primeiro valor"));
+            var valor2 = parseInt(prompt("Informe o segundo valor"));
+            var valor3 = parseInt(prompt("Informe o terceiro valor"));
+            var valor4 = parseInt(prompt("Informe o último valor"));
+
+            if (valor1 > valor2 && valor1 > valor3 && valor1 > valor4){
+                alert("O maior valor é o "+valor1+", o último valor é o "+valor4+" e primeiro valor é o "+valor1+"")
+            }
+
+            if (valor2 > valor1 && valor2 > valor3 && valor2 > valor4){
+                alert("O maior valor é o "+valor2+", o último valor é o "+valor4+" e o primeiro valor é o "+valor1+"")
+            }
+
+            if (valor3 > valor1 && valor3 > valor2 && valor3 > valor4){
+                alert("o maior valor é o "+valor3+", o último valor é o "+valor4+" e o primeiro valor é o "+valor1+"")
+            }
+
+            if (valor4 > valor2 && valor4 > valor3 && valor4 > valor1){
+                alert("o maior valor é o "+valor4+", o último valor é o "+valor4+" e o primeiro valor é o "+valor1+"")
+            }
+
+        </script>
+    </head>
+</html>

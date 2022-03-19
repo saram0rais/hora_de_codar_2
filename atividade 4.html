@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script>
+            /*4. Faça um programa que leia 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.*/
+            
+            var valor_1 = parseInt(prompt("Informe um valor."));
+            var valor_2 = parseInt(prompt("Informe mais um número."));
+            var valor_3 = parseInt(prompt("e mais um."));
+
+            if (valor_1 > valor_2 && valor_1 > valor_3){
+                if(valor_2 > valor_3){
+                alert(valor_1 + valor_2)
+                }
+                if (valor_3 > valor_2){
+                    alert(valor_1 + valor_3)
+                }
+            }
+            
+            if (valor_2 > valor_1 && valor_2 > valor_3){
+                if(valor_1 > valor_3){
+                alert(valor_2 + valor_1)
+                }
+                if (valor_3 > valor_1){
+                    alert(valor_2 + valor_3)
+                }
+            }
+
+            if (valor_3 > valor_1 && valor_3 > valor_2){
+                if(valor_1 > valor_2){
+                alert(valor_3 + valor_1)
+                }
+                if (valor_2 > valor_1){
+                    alert(valor_3 + valor_2)
+                }
+            }
+
+        </script>
+    </head>
+</html>

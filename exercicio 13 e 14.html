@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script>
+            /*13 - Escreva um programa para ler as notas das 4 avaliações de um aluno no semestre, calcular e escrever a média semestral e a seguinte mensagem: 
+            PARABÉNS! Você foi aprovado! somente se o aluno foi aprovado (considere 6.0 a média mínima para aprovação e 4 notas informadas)
+            14 - Acrescente ao exercício anterior a mensagem "Infelizmente, você foi reprovado!" caso a média calculada seja menor que 6.0..*/
+            var nota1 = parseInt(prompt("Nota primeira avaliação."));
+            var nota2 = parseInt(prompt("Nota segunda avaliação."));
+            var nota3 = parseInt(prompt("Nota terceira avaliação."));
+            var nota4 = parseInt(prompt("Nota quarta avaliação."));
+
+            var soma = (nota1 + nota2 + nota3 + nota4 / 4);
+
+            if (soma >= 6){
+                alert("PARABÉNS! Você foi aprovado! ")
+            }
+
+            else{
+                alert("Infelizmente, você foi reprovado!")
+            }
+
+        </script>
+    </head>
+</html>
